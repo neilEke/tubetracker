@@ -9,5 +9,6 @@ I need to build a data logger that can capture details for each train, the block
 
 ### Data Anomalies - to be dealt with
 Most lines on the map by cartometro have points at termini, offering mulitple platforms that trains could arrive on/depart from.
-Trains can enter/leave the 'passenger network' into depots, normally only at the start and end of its duties.
+Trains can enter/leave the 'passenger network' into depots, normally only at the start and end of its duties via points.
+Trains can terminate early and use turning points to swap ends and return.
 
