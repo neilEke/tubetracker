@@ -11,11 +11,13 @@ I found that through an API that is available from TfL via their open data servi
 
 For instance, if I search for the Victoria Line at Victoria Station, I could see all the trains due into either platform (Northbound or Southbound) over the next few minutes. 
 
-That's OK, but that's just one station on one line, I hear you say. So why don't we just get all the stations on the all the lines. The problem is that a particular train is due at the next station in 100seconds but it will also be due at the station after that in 220seconds and so on and so on. So we would ensure that we do not duplicate data. 
+That's OK, but that's just one station on one line, I hear you say. So why don't we just get all the stations on all of the lines. 
+
+The problem is that a particular train is due at the next station in 100seconds but it will also be due at the station after that in 220seconds and so on and so on. So we would ensure that we do not duplicate data. Additionally, we need to ensure we catch every train but not to many to reduce the number of duplicates. 
 
 The London Underground at peak times has nearly 600 trains each of them potentially sending in data about it's track position every 6 or 7 seconds (rough observation). 
 
-So my first step is going to be to create a tube logger, that can log the position/location of the train and the time it sent it to gather a picture of the a tual track layout. 
+So my first step is going to be to create a tube logger, that can log the position/location of the train and the time it sent it to gather a picture of the actual track layout. 
 
 
 ## Data Logging
