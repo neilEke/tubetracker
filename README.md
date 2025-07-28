@@ -1,7 +1,7 @@
 # tubetracker
 Have you ever wanted to know exactly where all the tube trains are at this moment, or maybe where exactly the next tube is?
 
-My inner-nerd did, so I looked at what was available on the Internet and I found a few good examples but I was picked fault at them at the same time. 
+My inner-nerd did, so I looked at what was available on the Internet and I found a few good examples but I was able to pick fault at them at the same time. 
 
 LondonUnderground.live is great but it only shows a train is moving between stations, when potentially it could be 2 or more on the longer runs between stations. 
 
