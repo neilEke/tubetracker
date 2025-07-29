@@ -13,7 +13,7 @@ For instance, if I search for the Victoria Line at Victoria Station, I could see
 
 That's OK, but that's just one station on one line, I hear you say. So why don't we just get all the stations on all of the lines. 
 
-The problem is that a particular train is due at the next station in 100seconds but it will also be due at the station after that in 220seconds and so on and so on. So we would ensure that we do not duplicate data. Additionally, we need to ensure we catch every train but not to many to reduce the number of duplicates. 
+The problem is that a particular train is due at the next station in 100seconds but it will also be due at the station after that in 220seconds and so on and so on. So we would ensure that we do not duplicate data. Additionally, we need to ensure we catch every train but not too many to reduce the number of duplicates. 
 
 The London Underground at peak times has nearly 600 trains each of them potentially sending in data about it's track position every 6 or 7 seconds (rough observation). 
 
